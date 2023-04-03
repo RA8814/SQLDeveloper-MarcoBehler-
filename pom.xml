@@ -29,5 +29,17 @@
       <artifactId>mysql-connector-java</artifactId>
       <version>8.0.32</version>
     </dependency>
+    <dependency>
+      <groupId>hikari-cp</groupId>
+      <artifactId>hikari-cp</artifactId>
+      <version>3.0.1</version>
+    </dependency>
   </dependencies>
+  <repositories>
+    <repository>
+      <id>clojars</id>
+      <name>Clojars</name>
+      <url>https://repo.clojars.org/</url>
+    </repository>
+  </repositories>
 </project>
